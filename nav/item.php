@@ -125,6 +125,7 @@
         <?php osc_run_hook('location'); ?>
     </div>
     <!-- plugins -->
+<?php if(false){ ?>
     <div id="useful_info" class="bordered-box">
         <h2><?php _e('Useful information', 'bender'); ?></h2>
         <ul>
@@ -134,6 +135,7 @@
             <li><?php _e('This site is never involved in any transaction, and does not handle payments, shipping, guarantee transactions, provide escrow services, or offer "buyer protection" or "seller certification"', 'bender'); ?></li>
         </ul>
     </div>
+<?php } ?>
 
         <?php related_listings(); ?>
         <?php if( osc_count_items() > 0 ) { ?>
